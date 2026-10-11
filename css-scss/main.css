@@ -1,0 +1,43 @@
+/* Component Container */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+/* Nested Title */
+.card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+/* Pseudo-class on Title */
+.card__title:hover {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Nested Description Paragraph */
+.card__description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Action Button Inside Card */
+.card .btn-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+/* Button Hover State */
+.card .btn-primary:hover {
+  background-color: #1d4ed8;
+}
