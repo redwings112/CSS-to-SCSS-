@@ -23,7 +23,7 @@ If you want to run or test this extension locally on your machine:
 Clone the repository:
 
 Bash
-git clone https://github.com/your-username/sassify-extension.git
+git clone [https://github.com/your-username/sassify-extension.git](https://github.com/redwings112/CSS-to-SCSS)
 cd sassify-extension
 Install dependencies:
 
